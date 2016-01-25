@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 body {
-  color: #333333;   
+  color:#000000;   
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #c4dce1;                      /*change your Bkg color*/
+  background-color:#D5D1EC;                      /*change your Bkg color*/
 }
 
 a, a:active, a:visited {
-  color: #0066CC;
+  color: #D5D1EC;
 }
 
 .content {
@@ -19,7 +19,7 @@ a, a:active, a:visited {
 
 
 footer {
-  border-top: 1px dotted #999999;
+  border-top: 1px dotted #F35CF5C;
   clear: both;
   padding: 1em 0;
 }
@@ -31,9 +31,9 @@ footer p {
 }
 
 header {
-  background: #C8C1B7;
-  border-bottom: 1px solid #999999;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  background:#F35CF5 ;
+  border-bottom: 1px solid #E38BD1;
+  background-image: url("http://todofondos.com/bin/fondos/06/40/22d.jpg"); /*change your banner image*/
   height: 60px;
   position: relative;
   width: 100%;
@@ -47,7 +47,7 @@ header h1 {
 }
 
 header h1 a, header h1 a:visited, header h1 a:active {
-  color: #333333;
+  color: #F35CF5;
 }
 
 header nav ul {
@@ -67,18 +67,18 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;
+  border-bottom-color:#D5D1EC;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
-  color: #0066CC;
+  color: #E38BD1;
 }
 
 header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #000000;                         /*changes banner text color*/
+  color: #F35CF5;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
@@ -88,8 +88,8 @@ header nav a, header nav a:visited {
 }
 
 .gallery li {
-  background-color: #333333;
-  border: 1px solid #999999;
+  background-color: #E38BD1;
+  border: 1px solid #D5D1EC;
   border-radius: 2px;
   float: left;
   list-style-type: none;
